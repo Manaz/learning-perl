@@ -1,0 +1,18 @@
+print "Hello World!\n";
+print "12fred34" * "3"."\n";
+print "The answer is ";
+print 6*7;
+print ".\n";
+print "The answer is ",6*7,".\n\n";
+$meal = "steak";
+$barney = "fred ate a $meal";
+print $barney."\n\n";
+$fred = 'hello';
+print "The name is ". $fred ."\n\n";
+$what = "etc steak";
+$n = 3;
+print "fred ate $n $whats.\n";
+print "fred ate $n $what s.\n";
+print "fred ate $n ${what}s.\n";
+print "fred ate $n $what" . "s.\n";
+print 'fred ate ' . $n . ' ' , $what . "s.\n\n";
